@@ -51,14 +51,14 @@ moved {
 }
 
 module "iac_tags" {
-  source = "git@github.com:companieshouse/terraform-modules//aws/tagging/iac?ref=tags/1.0.441"
+  source = "git@github.com:companieshouse/terraform-modules//aws/tagging/iac?ref=tags/1.0.446"
 
   group           = "infrastructure"
   source_code_url = "https://github.com/companieshouse/data-sync-service-stack"
 }
 
 module "owner_tags" {
-  source = "git@github.com:companieshouse/terraform-modules//aws/tagging/owner?ref=tags/1.0.441"
+  source = "git@github.com:companieshouse/terraform-modules//aws/tagging/owner?ref=tags/1.0.446"
 
   platform_owner = "platform"
 }
